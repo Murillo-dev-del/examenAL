@@ -1,0 +1,52 @@
+/* Estilos para todos los encabezados h1 */
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h3{
+    color: rgb(255, 123, 0);
+    text-align: center;
+}
+body{
+    background-image: url("fondo.jpg"); 
+    background-size: cover; /* Esto hará que la imagen cubra toda la pantalla */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background:#f7b705;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+
+/* Celdas de la tabla */
+td {
+    background: rgba(255, 255, 255, 0.651);
+
+    color: #333;
+    font-size: 18px;
+    padding: 14px;
+    text-align: center;
+}
+
+
+/* Hover en la tabla */
+tr:hover td {
+    background: rgba(255, 155, 5, 0.425);
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
